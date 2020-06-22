@@ -41,10 +41,12 @@ temp_today = 85
 print("Today's temperature is %s degrees." % temp_today)
 
 # If you have more than one blank you need to fill in, put as many values as you need inside parentheses and seprate them by commas, after the % sign
-joke = '''%s rhymes with %s?
-No it doesn't!'''
+joke = """%s rhymes with %s?
+No it doesn't!"""
 
 print(joke % ('What','orange'))
+
+#Note you can use 3 double quotes as well as 3 single quotes to create a multi-line string
 
 # You can also multiply strings by a number
 print(2 * 'choo ')
